@@ -6,6 +6,7 @@ import { PagesComponent } from "./pages.component";
 import { SharedModule } from "../shared/shared.module";
 import { PAGES_ROUTES } from "./pages.routes";
 import { FormsModule } from '@angular/forms';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 //temporal
@@ -18,6 +19,7 @@ import { GraficoDonaComponent } from "../components/grafico-dona/grafico-dona.co
 import { ChartsModule } from 'ng2-charts';
 
 
+
 @NgModule({
     declarations:[
         PagesComponent,
@@ -25,7 +27,8 @@ import { ChartsModule } from 'ng2-charts';
         ProgressComponent,
         Graficas1Component,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports: [
         PagesComponent,
